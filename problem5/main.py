@@ -1,7 +1,8 @@
-def pangkat(base, pangkat):
-    # your code here
-    return 'error response'
-
+def pangkat (base, pangkat):
+    hasil=base
+    for i in range (pangkat-1):
+        hasil*=base
+    return hasil
 
 if __name__ == '__main__':
     print(pangkat(2, 3)) # 8

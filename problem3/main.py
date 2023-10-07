@@ -1,9 +1,9 @@
-def prime_number(nu):
-    if nu == 1 or nu== 0 :
+def prime_number(num):
+    if num == 1 or num== 0 :
         return False
-    elif nu > 1:
-        for i in range (2, nu ) :
-            if nu % i == 0 :
+    elif num > 1:
+        for i in range (2, num ) :
+            if num % i == 0 :
                 return "Not Prime"
         else :
             return "Prime"

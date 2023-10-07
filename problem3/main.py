@@ -1,5 +1,12 @@
-def prime_number(num):
-    return "error response'
+def prime_number(nu):
+    if nu == 1 or nu== 0 :
+        return False
+    elif nu > 1:
+        for i in range (2, nu ) :
+            if nu % i == 0 :
+                return "Not Prime"
+        else :
+            return "Prime"
 
 if __name__ == '__main__':
     print(prime_number(11)) # "Prime"
